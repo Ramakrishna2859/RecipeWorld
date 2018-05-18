@@ -1,0 +1,126 @@
+
+html, body, header, footer, hgroup, nav, article, section, figure, figcaption, h1, h2, h3, ul, li, body, div, p, img,ol
+{
+   margin: 0;
+   padding: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   border: 0;
+}
+
+body{
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    background-color: #B56662;
+    color: white;
+    text-align: center;
+
+}
+.header h1 {
+    font-size: 2em;
+}
+.nav {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.nav li {
+    display: inline;
+    padding-right: 10px;
+}
+
+.nav li a{
+    font-size: 0.8em;
+    color: white;
+    
+}
+.content {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.disp {
+    background-color: white;
+    padding: 20px;
+}
+.disp h2 {
+    color: #76B4A5;
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}
+.home-h3 {
+    color: white;
+    text-align: left;
+    background-color: grey;
+    padding: 3px 5px 3px 15px;
+}
+.home-img {
+    width: 100%;
+}
+.footer {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 0.8em;
+}
+.recipes-ul { 
+    list-style: none;
+}
+.recipes-ul li {
+    border:1px solid #B56662;
+    padding: 10px;
+    overflow: auto;
+    padding: 0;
+    margin-bottom:5px;  
+}
+.recipes-ul li img {
+    float: left;
+    margin-right: 10px;
+    width:100px;
+    height: 100px;
+}
+.recipes-ul li h3 {
+    padding: 12px;
+}
+
+.recipes-ul li p {
+    padding: 12px;
+}
+a {
+    text-decoration: none;
+}
+.recipes-ul  a {
+    color:#6AB3A0;
+}
+
+.decription h3{
+    color:#6AB3A0;
+    padding:10px 0 10px 0;
+    border-bottom: 1px solid grey;
+}
+.decription ul{
+    padding:10px 0 10px 20px;
+}
+.decription ol{
+    padding:10px 0 10px 20px;
+}
+.inline li{
+    display: inline;
+    list-style: none;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+textarea{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
